@@ -1,0 +1,55 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/86514da8a0.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Decodificador</title>
+</head>
+<body>
+    <main class="container">
+        <header class="cabecalho">
+            <img src="./img/logo-alura.png" alt="logo alura">
+        </header>
+
+        <div class="container-texto">
+           <textarea  id="texto-vazio" placeholder="Digite seu texto"></textarea> 
+        </div>
+
+         <div id="container-imagem">
+         <div class="imagem">
+            <img src="./img/foto-fundo.png" alt="menino olhando uma lupa">
+            <h2 class="titulo">Nenhuma mensagem encontrada</h2>
+            <span class="subtitulo">Digite um texto que você deseja <br> criptografar ou descriptografar.</span>
+         </div>
+       </div> 
+        <div class="buttons">
+            <span class="aviso">
+                Apenas letras minúsculas e sem acento.
+            </span>
+            <div class="container-botao">
+                
+                <button onclick="criptografar()" class="botao-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="botao-descriptografar">Descriptografar</button>
+                
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape"> 
+        <div class="icon">      
+       <a href="https://github.com/Bruno-Meireles"><i class="fa-brands fa-github"></i></i></a>
+       <a href="https://www.linkedin.com/in/bruno-meireles-dev-front-end/"><i class="fa-brands fa-linkedin"></i></a>
+       </div>       
+       <h3 class="copy">Desenvolvido por Bruno Meireles</h3>   
+    </footer>
+    
+       
+
+        <script src="script.js"></script>
+
+</body>
+</html>

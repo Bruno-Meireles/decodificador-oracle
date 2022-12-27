@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';    
+}
+
+:root {
+    --cor--azul:  #0A3871;
+    --cor--branco--fundo: #E5E5E5;
+    --cor--preto: black; 
+}
+
+body {
+    background: var(--cor--branco--fundo); 
+    
+}
+
+
+.cabecalho {
+    display: flex;
+    margin: 20px;
+    padding: 20px; 
+}
+
+#texto-vazio {
+    margin-left: 200px;    
+    color: #0A3871;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    background-color: #E5E5E5;
+    font-size: 32px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+ #container-imagem   {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 60rem;
+    width: 400px;
+    height: 200px;
+    background: #E5E5E5;
+    border-radius: 50px;  
+
+    
+}
+
+.imagem img {
+    display: flex;
+    height: 200px;
+    width: 350px;
+    margin-top: 2%;
+   
+}
+
+
+
+ @media screen and (max-width: 800px) {
+    #container-imagem {
+       margin-left: 100px;
+       margin-bottom: 200px;
+
+    }
+} 
+
+
+.titulo  {
+    padding: 20px;
+    size: 24px;
+    color: #343A40;
+}
+
+.subtitulo {
+    color: #495057;
+    size: 16px;
+}
+
+.aviso {
+    margin-left: 180px;
+    
+} 
+
+.container-botao {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left:150px;
+    gap: 24px;   
+}
+
+.botao-criptografar {
+    background-color:#0A3871;
+    color: #FFFFFF;
+    border: #0A3871;
+    height: 67px;
+    width: 328px;
+    left: 0px;
+    top: 0px;
+    font-size: 20px;
+    border-radius: 24px;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.botao-descriptografar {
+    background-color: #c2c5ca;
+    color: #0A3871;     
+    height: 67px;
+    width: 328px;
+    left: 0px;
+    top: 0px;
+    font-size: 20px;
+    border: #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.btn-copiar {
+    border: 2px solid var(--cor--branco--fundo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--cor--branco--fundo);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+    background-color:var(--cor--azul); 
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin:30px ; 
+}
+
+.icon i {
+    color: #0A3871;
+    
+   
+}
+
+.rodape {
+    font-size: 30px;
+}
+
+.copy {
+    color: #0A3871;
+    font-size: 20px;
+}
